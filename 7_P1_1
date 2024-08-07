@@ -1,0 +1,20 @@
+<!-- create a website with a class red div which has a background color of red and color white -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <div class="red">
+        <p>If you want to shine like a sun, first burn like a sun.</p>
+    </div>
+ </body>
+ </html>
+<-- style.css-->
+.red
+{
+    background-color: red;
+}
