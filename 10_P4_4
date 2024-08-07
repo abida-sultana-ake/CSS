@@ -1,0 +1,31 @@
+<!-- create multiple css classes  and verify that all of these work on the same element -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <div class="blue aqua">
+        <h1>Quotes by APJ Abdul Kalam</h1>
+        <p>To succeed in your mission, you must have single-minded devotion to your goal.</p>
+        <p>Climbing to the top demands strength, whether it is to the top of Mount Everest or to the top of your career.</p>
+    </div>
+ </body>
+ </html>
+ <!-- style.css -->
+ .aqua
+{
+    background-color: rgb(6, 226, 226);
+    color: rgb(8, 8, 8);
+}
+.blue
+{
+    color: blue;
+}
+*{
+    margin: 4;
+    padding: 4;
+}
