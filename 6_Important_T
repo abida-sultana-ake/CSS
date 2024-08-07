@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        h1
+        {
+            color: rgb(226, 18, 18);
+        }
+        div
+        {
+            background-color: blanchedalmond;
+        } 
+    </style> -->
+</head>
+<body>
+    <div>
+        <h1>This is my CSS Selector Page</h1>
+        <p>Look at the sky. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work.</p>
+        <h1>This is another Border</h1>
+        <!-- id selector -->
+        <div id="red">BG is red</div>
+        <!-- class selector -->
+        <span class="blue">First tag</span>
+        <span class="blue">Second tag</span>
+        <span class="blue">Third tag</span>
+        <h3>I am H3</h3>
+    </div>
+
+</body>
+</html>
+<-- style.css-->
+/* h1
+{
+    color: red;
+} */
+div
+{
+    background-color: bisque;
+}
+#red ,h3
+{
+    color: aliceblue;
+    background-color: rgb(220, 20, 20);
+}
+.blue
+{
+    background-color: blue;
+    color: aliceblue;
+    border: 2px solid black;
+}
+*{
+    margin: 4;
+    padding: 4;
+}
