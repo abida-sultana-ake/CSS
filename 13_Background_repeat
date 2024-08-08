@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <div class="container">
+        When you have a dream, you've got to grab it and never let go.Never allow a person to tell you no who doesn't have the power to say yes.
+    </div>
+</body>
+</html>
+<--color.css-->
+body
+        {
+            background-image: url('p.jpg');
+            background-repeat: repeat-x;
+            background-repeat: repeat-y;
+            background-repeat: no-repeat;
+        }
+*
+{
+    margin: 0;
+    padding: 0;
+}
