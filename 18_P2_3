@@ -1,0 +1,37 @@
+<!-- Change the color of the main container on your page to dark red -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> Michelle Obama quote</li>
+        </ul>
+    </nav>
+    <div class="main">
+        <p>Your story is what you have, what you will always have. It is something to own.</p>
+    </div>
+</body>
+</html>
+<!-- color.css -->
+ul
+{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}
+.main
+{
+    background-color: red;
+    color: aliceblue;
+}
+
+*
+{
+    margin: 1;
+    padding: 1;
+}
