@@ -1,0 +1,32 @@
+<!-- Create a dark blue navigation bar with light blue navigation bar with light color items -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contract</li>
+        </ul>
+    </nav>
+</body>
+</html>
+<!-- color.css -->
+ul
+{
+    background-color: black;
+    color: aliceblue;
+    width: 344px;
+    height: 33;
+}
+*
+{
+    margin: 1;
+    padding: 1;
+}
