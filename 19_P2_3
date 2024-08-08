@@ -1,0 +1,43 @@
+<!-- Create a div and add a background image with a given width and hight -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <div class="main">
+        <p>
+            Every Step For You Is One Thousand For Me And My Lungs Are The Size Of Grapes.Prepare For Trouble, And Make It Double!
+        </p>
+    </div>
+    <div class="bg">
+        <p>
+            Channeling my inner electric type!
+        </p>
+    </div>
+</body>
+</html>
+<!-- color.css -->
+.main
+{
+    background-color: aqua;
+    color: rgb(7, 8, 8);
+}
+.bg
+{
+    height: 44px; ;
+    width: 1000px; ;
+    background-image: url('p.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(94, 171, 216);
+    background-size: 500px 500px;
+}
+
+*
+{
+    margin: 1;
+    padding: 1;
+}
