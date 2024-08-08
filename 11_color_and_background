@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color and background</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <div class="red">
+        It takes courage to grow up and become who you really are Your self-worth is determined by you. You don't have to depend on someone telling you who you are.
+    </div>
+    <div class="green">
+        You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. You're on your own. And you know what you know. And you are the guy who'll decide where to go. Attitude is a little thing that makes a big difference. To bring about change, you must not be afraid to take the first step. We will fail when we fail to try.
+    </div>
+</body>
+</html>
+<--color.css-->
+.red
+{
+    background-color: red;
+    color: aliceblue;
+}
+.green
+{
+    background-color: green;
+    color: black;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
