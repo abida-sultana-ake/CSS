@@ -1,0 +1,58 @@
+<!-- create a website layout. Add a header box, 1 content box and one footer box. add borders and margins,-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <header>
+        <h1>Programming language</h1>
+        <ul>
+            <li>Programming talk</li>
+            <li>Computer languages vs programming languages</li>
+            <li>Domain and target</li>
+        </ul>
+    </header>
+    <div class="content">
+        <p>
+            A programming language is a system of notation for writing computer programs.Programming languages are described in terms of their syntax (form) and semantics (meaning), usually defined by a formal language. Languages usually provide features such as a type system, variables, and mechanisms for error handling. An implementation of a programming language is required in order to execute programs, namely an interpreter or a compiler. An interpreter directly executes the source code, while a compiler produces an executable program.
+        </p>
+    </div>
+    <footer>
+        <p class="center">Copyright programmer0.3 &copy</p>
+    </footer>
+</body>
+</html>
+<!-- st.css -->
+header
+{
+    height: 150px;
+    width: 1000px;
+    background-color: aquamarine;
+    color: brown;
+    border: 2px solid aqua;
+}
+.content
+{
+    height: 150px;
+    width: 1000px;
+    background-color: cadetblue;
+    color: black;
+    border: 2px solid red;
+}
+footer
+{
+    background-color: red;
+}
+.center
+{
+    text-align: center;
+}
+*
+{
+    margin: 2px;
+    padding: 2px;
+}
