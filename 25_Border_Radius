@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div class="content">
+        The term computer language is sometimes used interchangeably with programming language. However, the usage of both terms varies among authors, including the exact scope of each. One usage describes programming languages as a subset of computer languages. Similarly, languages used in computing that have a different goal than expressing computer programs are generically designated computer languages. For instance, markup languages are sometimes referred to as computer languages to emphasize that they are not meant to be used for programming. One way of classifying computer languages is by the computations they are capable of expressing, as described by the theory of computation. The majority of practical programming languages are Turing complete, and all Turing complete languages can implement the same set of algorithms. ANSI/ISO SQL-92 and Charity are examples of languages that are not Turing complete, yet are often called programming languages.However, some authors restrict the term "programming language" to Turing complete languages.
+    </div>
+</body>
+</html>
+<!-- st.css -->
+.content
+{
+    height: 423px;
+    width: 423px;
+    background: red;
+    margin: 2px 1px;
+    padding: 13px;
+    border: 4px solid black;
+    border-radius: 9px;
+}
