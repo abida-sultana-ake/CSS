@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div class="box1">
+        <p>Avul Pakir Jainulabdeen Abdul Kalam was born on 15 October 1931, to a Tamil Muslim family in the pilgrimage centre of Rameswaram on Pamban Island, then in the Madras Presidency and now in the State of Tamil Nadu. His father Jainulabdeen Marakayar was a boat owner and imam of a local mosque;his mother Ashiamma was a housewife.His father owned a ferry that took Hindu pilgrims back and forth between Rameswaram and the now uninhabited Dhanushkodi.</p>
+    </div>
+    
+    <div class="box2">
+        <p>In his school years, Kalam had average grades but was described as a bright and hardworking student who had a strong desire to learn. He spent hours on his studies, especially Mathematics. After completing his education at Schwartz Higher Secondary School, Ramanathapuram, Kalam went on to attend the St. Joseph's College, Tiruchirappalli from where he graduated in Physics in 1954</p>
+    </div>
+</body>
+</html>
+<!-- st.css -->
+.box1
+{
+    display: inline;
+    width: 500px;
+    height: 330px;
+    background-color: red;
+}
+.box2
+{
+    display: inline;
+    width: 500px;
+    height: 330px;
+    background-color: rgb(18, 106, 221);
+}
+*
+{
+    margin: 3px;
+    padding: 3px;
+}
