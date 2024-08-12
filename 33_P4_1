@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website</title>
+  <link rel="stylesheet" href="color.css">
+</head>
+<body>
+  <div class="navbar">
+
+  </div>
+  <div class="right">
+
+  </div><div class="left">
+    
+  </div>
+</body>
+</html>
+<!-- color.css -->
+.navbar
+{
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+.right
+{
+    background-color: green;
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+}
+.left
+{
+    background-color: red;
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
