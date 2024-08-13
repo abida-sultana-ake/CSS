@@ -1,0 +1,51 @@
+<!-- Create a sticky  navbar using position property -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="color.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contract</li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <p>
+      During the Bangladesh Liberation War in 1971, Yunus founded a citizen's committee and ran the Bangladesh Information Center, with other Bangladeshis in the United States, to raise support for liberation. He also published the Bangladesh Newsletter from his home in Nashville. After the War, he returned to Bangladesh and was appointed to the government's Planning Commission headed by Nurul Islam. However, he found the job boring and resigned to join Chittagong University as head of the Economics department
+    </p>
+  </div>
+</body>
+</html>
+<!-- color.css -->
+li
+{
+    display: inline;
+    font-size: 2vw;
+    padding: 0 13px;
+}
+header
+{
+    padding: 25px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.container
+{
+    min-height: 2333px;
+    background-color: aqua;
+}
+*
+{
+    margin: 0;
+    padding: 0px;
+}
