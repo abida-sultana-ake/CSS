@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Units</title>
+  <link rel="stylesheet" href="color.css">
+</head>
+<body>
+  <div class="container">
+    <p>After dissolving parliament on 6 August 2024, Bangladeshi president Mohammed Shahabuddin nominated Yunus to serve as the head of the interim government of Bangladesh by student demands following the resignation of former Prime Minister Sheikh Hasina. His acquittal on appeal the following day of charges of labor code violations, which were viewed as politically motivated, facilitated his return to the country and appointment.</p>
+  </div>
+</body>
+</html>
+<!-- color.css -->
+.container
+{
+    width: 344px;
+    height: 144vh;
+    background-color: aqua;
+    /* min-height: 50vh; */
+    /* max-height: 50vh; */
+    min-width: none;
+    max-width: none;
+}
