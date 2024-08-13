@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Units</title>
+  <link rel="stylesheet" href="color.css">
+</head>
+<body>
+  <div class="container">
+    <p>This is a paragraph</p>
+    <div class="box">
+      <p>Muhammad Yunus (Bengali: মুহাম্মদ ইউনূস, born 28 June 1940) is a Bangladeshi entrepreneur, banker, economist, politician, and civil society leader who has been serving as the Chief Adviser of the interim government of Bangladesh since 8 August 2024.Yunus was awarded the Nobel Peace Prize in 2006 for founding the Grameen Bank and pioneering the concepts of microcredit and microfinance. Yunus has received several other national and international honors, including the United States Presidential Medal of Freedom in 2009 and the Congressional Gold Medal in 2010. Yunus is one of just seven individuals who have been awarded the Nobel Peace Prize, the United States Presidential Medal of Freedom, and the United States Congressional Gold Medal.</p>
+    </div>
+    <div class="box2">
+      <p>In 2012, Yunus became Chancellor of Glasgow Caledonian University in Scotland, a position he held until 2018.Previously, he was a professor of economics at Chittagong University in Bangladesh.He published several books related to his finance work. He is a founding board member of Grameen America and Grameen Foundation, which support microcredit. Yunus also served on the board of directors of the United Nations Foundation, a public charity to support UN causes, from 1998 to 2021. In 2022, he partnered with Global Esports Federation to build esports for the development movement.</p>
+    </div>
+  </div>
+</body>
+</html>
+<!-- color.css -->
+html
+{
+    /* font-size : 45px; */
+}
+.cotainer
+{
+    font-size: 34px;
+}
+.box
+{
+    /* font-size: 12px; */
+    /* font-size: 3em; */
+    /* font-size: 3rem; */
+    background-color: aqua;
+}
+.box2
+{
+    background-color: aquamarine;
+    width: 344px;
+    width: 50vw;
+    height: 50vh;
+}
